@@ -67,6 +67,7 @@ class Dashboard extends BaseController
     }
     public function listBarang2()
     {
+        $ukuran = new CategoryModel();
         echo view('user/listBarang');
         echo view('user/listBarang');
     }
