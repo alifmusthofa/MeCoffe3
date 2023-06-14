@@ -68,5 +68,6 @@ class Dashboard extends BaseController
     public function listBarang2()
     {
         echo view('user/listBarang');
+        echo view('user/listBarang');
     }
 }
