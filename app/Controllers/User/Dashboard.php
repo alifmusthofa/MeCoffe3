@@ -70,6 +70,7 @@ class Dashboard extends BaseController
         $produk = new ProdukModel();
         $ukuran = new CategoryModel();
         $ukuran = new CategoryModel();
+        $ukuran = new CategoryModel();
         echo view('user/listBarang');
         echo view('user/listBarang');
     }
