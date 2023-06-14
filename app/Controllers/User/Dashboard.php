@@ -65,7 +65,7 @@ class Dashboard extends BaseController
     {
         echo view('user/listBarang');
     }
-    public function listBarang3()
+    public function listBarang4()
     {
         echo view('user/listBarang');
     }
