@@ -65,13 +65,8 @@ class Dashboard extends BaseController
     {
         echo view('user/listBarang');
     }
-    public function listBarang2()
+    public function listBarang3()
     {
-        $produk = new ProdukModel();
-        $ukuran = new CategoryModel();
-        $ukuran = new CategoryModel();
-        $ukuran = new CategoryModel();
-        echo view('user/listBarang');
         echo view('user/listBarang');
     }
 }
